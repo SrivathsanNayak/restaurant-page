@@ -1,1 +1,1 @@
-console.log("If you can see this, the configuration works."),console.log("What about this one?");
+(()=>{const e=document.getElementById("content"),t=document.createElement("div"),n=document.createElement("h1"),a=document.createElement("h3"),o=document.createElement("div"),r=document.createElement("p");t.append(n,a),o.append(r),e.append(t,o),n.textContent="Just a Restaurant",a.textContent="An ordinary restaurant with an ordinary website!",r.textContent="This is an ordinary restaurant. You can get some ordinary food here."})();
