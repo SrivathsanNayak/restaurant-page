@@ -1,3 +1,5 @@
-import loadingContent from './pageLoad.js';
+import { headingPart } from "./homePage.js";
 
-loadingContent();
+const content = document.getElementById("content");
+const heading = headingPart();
+content.append(heading);
