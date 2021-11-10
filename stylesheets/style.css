@@ -1,3 +1,18 @@
+nav {
+    margin: 2rem;
+}
+
+nav ul {
+    display: flex;
+    margin: 1rem auto;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    padding: 0 3rem;
+}
+
 .cover-image {
     width: 20rem;
     height: 20rem;
