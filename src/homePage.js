@@ -1,6 +1,6 @@
 import image1 from './assets/homemadefood.jpg';
 
-function headingPart() {
+function home() {
     const heading = document.createElement("div");
     const name = document.createElement("h1");
     const tagline = document.createElement("h3");
@@ -29,4 +29,4 @@ function headingPart() {
     return heading;
 }
 
-export {headingPart};
+export {home};

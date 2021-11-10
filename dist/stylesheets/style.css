@@ -17,6 +17,7 @@ nav ul {
 
 nav ul li {
     padding: 0 3rem;
+    cursor: pointer;
 }
 
 .title {
