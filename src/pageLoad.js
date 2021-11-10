@@ -11,7 +11,7 @@ function navBar() {
     navHome.textContent = "HOME";
     navMenu.textContent = "MENU";
     navContact.textContent = "CONTACT";
-
+    navHome.classList.add("active");
     return nav;
 }
 
