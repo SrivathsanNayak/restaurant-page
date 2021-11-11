@@ -77,3 +77,22 @@ nav ul li {
     font-family: 'Satisfy', cursive;
     text-decoration: underline;
 }
+
+.menu-divs {
+    text-align: center;
+    margin: 2rem auto;
+}
+
+.menu-images {
+    background-size: cover;
+    background-position: center;
+    max-width: 250px;
+    max-height: 250px;
+    border-radius: 1rem;
+}
+
+.menu-foods {
+    padding: 1rem 0;
+    font-size: 1.75rem;
+    font-weight: 800;
+}
