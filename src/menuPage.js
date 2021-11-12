@@ -15,7 +15,13 @@ function menu() {
     createMenuItems("IDLI-VADA: ₹100", image1, "Idli and Vada"),
     createMenuItems("MASALA DOSA: ₹120", image2, "Dosa filled with Masala"));
 
-    
+    lunchDiv.append(createMenuTitle("Lunch"),
+    createMenuItems("DAL & RICE: ₹140", image3, "Rice with dal gravy"),
+    createMenuItems("CHICKEN BIRYANI: ₹160", image4, "Chicken biryani"));
+
+    dinnerDiv.append(createMenuTitle("Dinner"),
+    createMenuItems("HAKKA NOODLES: ₹150", image5, "Hakka noodles"),
+    createMenuItems("KURMA PAROTTA: ₹150", image6, "Parotta with kurma gravy"));
 
     menuPart.append(breakfastDiv, lunchDiv, dinnerDiv);
 
