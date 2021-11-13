@@ -113,6 +113,10 @@ nav ul li {
     .para-div {
         max-width: 45%;
     }
+
+    .contact-para {
+        max-width: 45%;
+    }
 }
 
 @media screen and (max-width: 792px) {
@@ -127,6 +131,14 @@ nav ul li {
     .para-div {
         max-width: 55%;
     }
+
+    .contact-para {
+        max-width: 55%;
+    }
+
+    .contact-para .para{
+        font-size: 1.25rem;
+    }
 }
 
 @media screen and (max-width: 592px) {
@@ -140,5 +152,14 @@ nav ul li {
     
     .para-div {
         max-width: 80%;
+    }
+
+    .contact-para {
+        max-width: 80%;
+        font-size: 0.8rem;
+    }
+
+    .contact-para .para{
+        font-size: 1rem;
     }
 }
