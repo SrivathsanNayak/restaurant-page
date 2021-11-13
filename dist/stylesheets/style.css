@@ -1,5 +1,4 @@
 body {
-    font-size: 16px;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -16,7 +15,7 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 3rem;
+    margin: 0 3rem 0 0;
     cursor: pointer;
 }
 
@@ -56,6 +55,8 @@ nav ul li {
 }
 
 .cover-image {
+    display: block;
+    text-align: center;
     width: 20rem;
     height: 20rem;
     margin: 1rem auto;
@@ -78,10 +79,11 @@ nav ul li {
 }
 
 .menu-images {
-    background-size: cover;
-    background-position: center;
     max-width: 200px;
     max-height: 200px;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
     border-radius: 1rem;
     border: thick solid #FFCE45;
 }
@@ -105,4 +107,38 @@ nav ul li {
     margin: 4rem auto;
     text-align: center;
     max-width: 30%;
+}
+
+@media screen and (max-width: 992px) {
+    .para-div {
+        max-width: 45%;
+    }
+}
+
+@media screen and (max-width: 792px) {
+    nav {
+        font-size: 1.5rem;
+    }
+
+    nav ul li {
+        margin: 0 2.5rem 0 0;
+    }
+    
+    .para-div {
+        max-width: 55%;
+    }
+}
+
+@media screen and (max-width: 592px) {
+    nav {
+        font-size: 1.3rem;
+    }
+
+    nav ul li {
+        margin: 0 2rem 0 0;
+    }
+    
+    .para-div {
+        max-width: 80%;
+    }
 }
