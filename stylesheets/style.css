@@ -22,7 +22,7 @@ nav ul li {
 
 .active {
     border-bottom: 2px solid black;
-    background-color: #ddd;
+    background-color: #FFF9B2;
 }
 
 .title {
@@ -40,14 +40,6 @@ nav ul li {
     text-align: center;
     font-size: 1.25rem;
     font-style: italic;
-    font-family: 'Balsamiq Sans', cursive;
-}
-
-.caption {
-    margin: 0 auto;
-    padding: 1rem 0;
-    text-align: center;
-    font-size: 1.25rem;
     font-family: 'Balsamiq Sans', cursive;
 }
 
@@ -77,6 +69,7 @@ nav ul li {
     font-size: 4.5rem;
     font-family: 'Satisfy', cursive;
     text-decoration: underline;
+    color: #FFCE45;
 }
 
 .menu-divs {
@@ -97,4 +90,19 @@ nav ul li {
     padding: 1rem 0;
     font-size: 1.75rem;
     font-weight: 800;
+}
+
+.icons {
+    font-size: 2.5rem !important;
+    color: #FFCE45;
+    padding: 0 1rem;
+    margin-top: 0.5rem;
+}
+
+.contact-para {
+    display: flex;
+    flex-direction: row;
+    margin: 4rem auto;
+    text-align: center;
+    max-width: 30%;
 }
