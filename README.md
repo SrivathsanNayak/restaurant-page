@@ -1,5 +1,7 @@
 # Restaurant Page
 
-In this project, I will try to create a simple restaurant page using DOM manipulation.
+In this project, I created a simple restaurant page using DOM manipulation.
 
-Project is currently under construction.
+I also got to learn the basic concepts of Webpack.
+
+[Live Demo](https://srivathsannayak.github.io/restaurant-page/)
